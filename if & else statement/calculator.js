@@ -1,0 +1,11 @@
+var  x  =  prompt("user for the first number");
+var y   =  prompt("user for the second number");
+var sum =  Number(x) + Number(y);
+var sub =  Number(x) - Number(y);
+var mul =  Number(x) * Number(y);
+var div =  Number(x) / Number(y);
+alert("sum ="+sum);
+alert("sub ="+sub);
+alert("mul ="+mul);
+alert("div ="+div);
+alert("sum ="+sum+"sub ="+sub+"mul ="+mul+"div ="+div); 
