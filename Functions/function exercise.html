@@ -1,0 +1,33 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<title>javascript</title>	
+  </head>
+  <body>
+        <script>
+            var age = prompt("what is your age");
+
+            if(Number(age) < 18){
+                alert("sorry you are too young to drive this car.powering off");
+            }
+            else if(Number(age) > 18){
+                alert("powering on.Enjoy the ride!");
+            }
+            else if(Number(age) === 18){
+                alert("congragulation");
+            }
+            else{
+             alert("invalid")
+            }
+            function checkDriverAge(age) {
+    if (Number(age) < 18) {
+        return "Sorry, you are too yound to drive this car. Powering off";
+    } else if (Number(age) > 18) {
+        return "Powering On. Enjoy the ride!";
+    } else if (Number(age) === 18) {
+        return "Congratulations on your first year of driving. Enjoy the ride!";
+    }
+}
+        </script>
+  </body>
+  </html>
